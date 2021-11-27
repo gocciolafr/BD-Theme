@@ -2,7 +2,7 @@
 
 ## Avaiable support versions
 
-Here it will show which versions of the theme have available support. To check the version of the theme, log into the official Discord server.
+Here it will show which versions of the theme have available support. To check the version of the theme, [join](https://discord.gg/vTG2uX7HRC) the official Discord server.
 
 |Version|Support|
 |-------|-------|
@@ -16,7 +16,7 @@ _Top 5 versions pubblished_
 
 ## How to get support
 
-To get live chat support, you need to log into our Discord server, then go to #support and create a new ticket.
+To get live chat support, you need to [join](https://discord.gg/vTG2uX7HRC) into our Discord server, then go to #support and create a new ticket.
 It will take a maximum of 1 day to respond, so you need to be patient.
 
 Another way is to create a new issue on GitHub. This takes a maximum of 5 days.
