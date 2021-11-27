@@ -130,7 +130,7 @@
 }
 
 .theme-dark .autocomplete-1vrmpx {
-    backdrop_filter: blur(10px);
+    backdrop_filter: blur(15px);
     background-color: rgba(40,40,40,0.5);
 }
 
