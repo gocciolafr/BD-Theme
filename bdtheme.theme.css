@@ -1,0 +1,146 @@
+/**
+ * @name BD Theme
+ * @version 1.0.1
+ * @description Minimal and modern theme for Discord, after blur, animations and others.
+ * @author ItzKleo#7753
+*/
+
+:root {
+    --blur-background: rgba(40,40,40,0.5); /* Background color for blurred panels */
+    --blureffect: blur(10px) /* Blur intensity */
+}
+
+@font-face {
+    font-family: 'epic';
+    src: url('88055567e3d928bcb1e67e967081572e-webfont.woff2') format('woff2'),
+         url('88055567e3d928bcb1e67e967081572e-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.menu-3sdvDG {
+    backdrop-filter: blur(15px);
+    background: var(--blur-background);
+}
+
+.userPopout-xaxa6l {
+    backdrop-filter: var(--blureffect);
+    background: var(--blur-background);
+}
+
+.bodyInnerWrapper-26fQXj {
+    background: rgba(40,40,40,0.0);
+}
+
+.footer-3UKYOU {
+    background: rgba(40,40,40,0.0);
+}
+
+.container-7uh5fX{
+    background: var(--blur-background);
+    backdrop-filter: var(--blureffect);
+}
+
+.header-1VS4tm {
+    background: rgba(40,40,40,0.0);
+}
+
+.messagesPopoutWrap-1MQ1bW {
+    background: var(--blur-background);
+    backdrop-filter: var(--blureffect);
+}
+
+.header-ykumBX {
+    background: rgba(40,40,40,0.0);
+}
+
+.contentWrapper-SvZHNd {
+    background: var(--blur-background);
+    backdrop-filter: var(--blureffect);
+}
+
+.wrapper-1-Fsb8 {
+    background: rgba(40,40,40,0.0);
+}
+
+.footer-1kmXd4 {
+    background: rgba(40,40,40,0.0);
+}
+
+.unread-1xRYoj {
+    background-color: rgba(40,40,40,0.0);
+    opacity: 1;
+    backdrop-filter: var(--blureffect);
+}
+
+.noiseCancellationPopout-iRK2A0 {
+    background: var(--blur-background);
+    backdrop-filter: var(--blureffect);
+}
+
+.mention-1f5kbO {
+    background: var(--blur-background);
+    backdrop-filter: var(--blureffect);
+    opacity: 1;
+}
+
+.banner-2QYc2d {
+    filter: var(--blureffect);
+}
+
+.accountList-33MS45 {
+    border: 11px black;
+    z-index: 999;
+    backdrop-filter: var(--blureffect);
+}
+
+.accountList-33MS45 {
+    background-color: var(--blur-background);
+    position: fixed;
+    top: 669px;
+    z-index: 986;
+    align-content: center;
+}
+
+.accountBtn-2Nozo3 .accountBtnInner-sj5jLs {
+    background-color: rgba(40,40,40,0.0);
+}
+
+.cardPrimary-1Hv-to {
+    background: var(--blur-background);
+    position: fixed;
+    backdrop-filter: var(--blureffect);
+    top: 650px;
+    z-index: 999;
+}
+
+.clamped-IwJfxR {
+    display: block;
+}
+
+.notice-ZSe05e {
+    background-color: var(--blur-background);
+    position: fixed;
+    z-index: 999;
+    top: 750px;
+    backdrop-filter: var(--blureffect);
+}
+
+.theme-dark .nowPlaying-284llR, .theme-light .nowPlaying-284llR {
+    background-color: rgb(0 137 14 / 50%);
+    backdrop-filter: var(--blureffect);
+    top: 700px;
+    position: absolute;
+}
+
+.theme-dark .notDetected-33MY4s, .theme-light .notDetected-33MY4s {
+    background-color: var(--blur-background);
+    position: absolute;
+    backdrop-filter: var(--blureffect);
+    top: 700px;
+}
+
+.container-6sXIoE {
+    border-bottom: 0px;
+}
