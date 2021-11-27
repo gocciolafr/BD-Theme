@@ -7,16 +7,7 @@
 
 :root {
     --blur-background: rgba(40,40,40,0.5); /* Background color for blurred panels */
-    --blureffect: blur(10px) /* Blur intensity */
-}
-
-@font-face {
-    font-family: 'epic';
-    src: url('88055567e3d928bcb1e67e967081572e-webfont.woff2') format('woff2'),
-         url('88055567e3d928bcb1e67e967081572e-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+    --blureffect: blur(1000px) /* Blur intensity */
 }
 
 .menu-3sdvDG {
