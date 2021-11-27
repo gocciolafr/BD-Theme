@@ -29,11 +29,13 @@ _If you have successfully installed BetterDiscord, you can continue_
 12. Go to _Themes_
 13. Enable ***BD Theme***
 
+> If something went wrong, [join](https://discord.gg/vTG2uX7HRC) the official Discord server for support!
+
 ## How to update
 > Updates are automatic
 
 This is how to update the theme!
-> Join Discord server to get annuncements on updates!
+> [Join](https://discord.gg/vTG2uX7HRC) Discord server to get annuncements on updates!
 
 1. Go to settings
 2. Go to 'Themes'
@@ -47,4 +49,4 @@ This is how to update the theme!
 ## Social
 You need help?
 - Open _Wiki_ on this page
-- Join Discord server
+- [Join](https://discord.gg/vTG2uX7HRC) Discord server
