@@ -6,6 +6,7 @@ Here it will show which versions of the theme have available support. To check t
 
 |Version|Support|
 |-------|-------|
+|0.5 Beta|:white_check_mark:|
 |0.4 Beta|:white_check_mark:|
 |0.3 Alpha|:negative_squared_cross_mark:|
 |0.2 Alpha|:negative_squared_cross_mark:|
