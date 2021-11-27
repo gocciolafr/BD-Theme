@@ -128,3 +128,8 @@
 .container-6sXIoE {
     border-bottom: 0px;
 }
+
+.theme-dark .autocomplete-1vrmpx {
+    backdrop_filter: blur(10px);
+    background-color: rgba(40,40,40,0.5);
+}
