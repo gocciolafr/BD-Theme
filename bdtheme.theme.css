@@ -1,147 +1,305 @@
-/**
- * @version 1.0.6
-*/
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
-
-.menu-3sdvDG {
-    backdrop-filter: blur(15px);
-    background: var(--blur-background);
+:root {
+    --primary-font: 'Space Grotesk'
 }
 
-.userPopout-xaxa6l {
-    backdrop-filter: var(--blureffect);
-    background: var(--blur-background);
-}
-
-.bodyInnerWrapper-26fQXj {
-    background: rgba(40,40,40,0.0);
-}
-
-.footer-3UKYOU {
-    background: rgba(40,40,40,0.0);
-}
-
-.container-7uh5fX{
-    background: var(--blur-background);
-    backdrop-filter: var(--blureffect);
-}
-
-.header-1VS4tm {
-    background: rgba(40,40,40,0.0);
-}
-
-.messagesPopoutWrap-1MQ1bW {
-    background: var(--blur-background);
-    backdrop-filter: var(--blureffect);
-}
-
-.header-ykumBX {
-    background: rgba(40,40,40,0.0);
-}
-
-.contentWrapper-SvZHNd {
-    background: var(--blur-background);
-    backdrop-filter: var(--blureffect);
-}
-
-.wrapper-1-Fsb8 {
-    background: rgba(40,40,40,0.0);
-}
-
-.footer-1kmXd4 {
-    background: rgba(40,40,40,0.0);
-}
-
-.unread-1xRYoj {
-    background-color: rgba(40,40,40,0.0);
-    opacity: 1;
-    backdrop-filter: var(--blureffect);
-}
-
-.noiseCancellationPopout-iRK2A0 {
-    background: var(--blur-background);
-    backdrop-filter: var(--blureffect);
-}
-
-.mention-1f5kbO {
-    background: var(--blur-background);
-    backdrop-filter: var(--blureffect);
-    opacity: 1;
-}
-
-.banner-2QYc2d {
-    filter: var(--blureffect);
-}
-
-.accountList-33MS45 {
-    border: 11px black;
-    z-index: 999;
-    backdrop-filter: var(--blureffect);
-}
-
-.accountList-33MS45 {
-    background-color: var(--blur-background);
-    position: fixed;
-    top: 669px;
-    z-index: 986;
-    align-content: center;
-}
-
-.accountBtn-2Nozo3 .accountBtnInner-sj5jLs {
-    background-color: rgba(40,40,40,0.0);
-}
-
-.cardPrimary-1Hv-to {
-    background: var(--blur-background);
-    position: fixed;
-    backdrop-filter: var(--blureffect);
-    top: 650px;
-    z-index: 999;
-}
-
-.clamped-IwJfxR {
-    display: block;
-}
-
-.notice-ZSe05e {
-    background-color: var(--blur-background);
-    position: fixed;
-    z-index: 999;
-    top: 750px;
-    backdrop-filter: var(--blureffect);
-}
-
-.theme-dark .nowPlaying-284llR, .theme-light .nowPlaying-284llR {
-    background-color: rgb(0 137 14 / 50%);
-    backdrop-filter: var(--blureffect);
-    top: 700px;
-    position: absolute;
-}
-
-.theme-dark .notDetected-33MY4s, .theme-light .notDetected-33MY4s {
-    background-color: var(--blur-background);
-    position: absolute;
-    backdrop-filter: var(--blureffect);
-    top: 700px;
+.embedAuthorName-pGyUPR, .embedFieldName-9LYSyR, .embedTitle-2n1pEb {
+    color: var(--header-primary);
+    font-family: var(--primary-font), sans-serif;
 }
 
 .container-6sXIoE {
-    border-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 52px;
+    margin-bottom: 1px;
+    border-bottom: 0px solid var(--background-modifier-accent);
+    padding: 0 8px;
+    box-sizing: border-box;
+    order: -1;
 }
 
-.theme-dark .autocomplete-1vrmpx {
-    backdrop-filter: blur(15px);
-    background-color: rgba(40,40,40,0.5);
+.headerText-1PHE8Z {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    color: var(--interactive-active);
+    font-family: var(--primary-font), sans-serif;
 }
 
-.wrapper-uf3cnO {
-    background-color: #ffffff00;
+.container-1zzFcN {
+    color: var(--header-primary);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    border-bottom: 0px solid var(--background-modifier-accent);
 }
 
-.wrapper-2Gsate {
-    background-color: #ffffff00;
+.activityPanel-9icbyU {
+    border-bottom: 0px solid var(--background-modifier-accent);
 }
 
-.channelTextAreaDisabled-8rmlrp .scrollableContainer-2NUZem {
-    opacity: 0;
+.pricePerInterval-3PUiOj strong {
+    color: var(--interactive-active);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    font-family: var(--primary-font), sans-serif;
+}
+
+.name-3Vmqxm {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    font-family: var(--primary-font), sans-serif;
+}
+
+.listeningAlong-6YvYsc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 0px solid var(--background-modifier-accent);
+    padding: 8px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.username-h_Y3Us {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.375rem;
+    color: var(--header-primary);
+    display: inline;
+    vertical-align: baseline;
+    position: relative;
+    overflow: hidden;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-family: var(--primary-font), sans-serif;
+}
+
+.icon-N9JZb6, .username-vAneIW {
+    color: var(--channels-default);
+    font-family: var(--primary-font), sans-serif;
+}
+
+.headerIcon-2Gk2OH+.headerLabel-1g790w {
+    margin-left: 8px;
+    font-family: var(--primary-font), sans-serif;
+}
+
+.titlePrimary-23rNQQ, .titleSecondary-3hcpuB {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: var(--primary-font), sans-serif;
+}
+
+.fakeActivityTimeValues-3H1J0w {
+    font-family: 'Whitney';
+}
+
+.metadataName-1KMZtB {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: var(--primary-font), sans-serif;
+}
+
+.durationTimeDisplay-QwCeRr, .durationTimeSeparator-1Cqi9N {
+    font-weight: 500;
+    display: inline-block;
+    font-family: 'Whitney';
+    font-size: 12px;
+    line-height: 12px;
+    vertical-align: text-top;
+}
+
+.label-2Pe5f1 {
+    font-weight: 700;
+    margin-bottom: 4px;
+    font-family: var(--primary-font), sans-serif;
+}
+
+.roleName-1zfJkq {
+    font-weight: 500;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: var(--primary-font), sans-serif;
+}
+
+.ruleTextHeader-3Trl4R {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 475px;
+    vertical-align: middle;
+    font-family: var(--primary-font), sans-serif;
+}
+
+.triggerHeader-2lsIwv {
+    font-weight: 500;
+    line-height: 20px;
+    font-family: var(--primary-font), sans-serif;
+}
+
+
+
+.text-xs-medium-2LRpEj, .text-xs-normal-3SiVjE {  /* DA RIMUOVERE */
+    font-family: 'Whitney';
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.username-u-ebrn {
+    font-family: var(--primary-font), sans-serif;
+}
+
+.inviteCode-1IasTo {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    font-family: 'Whitney';
+}
+
+.countdown-1M25QO, .uses-2SbRqk {
+    text-align: right;
+    font-family: 'Whitney';
+}
+
+.text-md-medium-2avxhQ, .text-md-normal-304U3g {
+    font-family: var(--primary-font), sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.statusWithPopout-1MDqs1 {
+    cursor: pointer;
+    font-family: var(--primary-font), sans-serif;
+}
+
+.rtcConnectionStatusLabel-Nodt6L {
+    font-weight: 500;
+}
+
+.title-2dsDLn {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: block;
+    overflow: hidden;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--header-primary);
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    word-wrap: break-word;
+    cursor: pointer;
+    font-family: var(--primary-font), sans-serif;
+}
+
+:root {
+    --font-primary: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-display: var(--primary-font), sans-serif;
+    --font-headline: var(--primary-font), sans-serif;
+    --font-code: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+    --font-korean: Whitney,"Apple SD Gothic Neo",NanumBarunGothic,"맑은  고딕","Malgun Gothic",Gulim,굴림,Dotum,돋움,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-japanese: Whitney,"Hiragino Sans","ヒラギノ角ゴ  ProN W3","Hiragino Kaku Gothic ProN",メイリオ,Meiryo,Osaka,"MS PGothic","Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-chinese-simplified: Whitney,"Microsoft YaHei New",微软雅黑,"Microsoft Yahei","Microsoft JhengHei",宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-chinese-traditional: Whitney,"Microsoft JhengHei",微軟正黑體,"Microsoft JhengHei UI","Microsoft YaHei",微軟雅黑,宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.bd-settings-title:not(.bd-settings-group-title) {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Space Grotesk';
+}
+
+.root-g14mjS {
+    background-color: #2f3136;
+    border-radius: 4px;
+    margin: 0 auto;
+    pointer-events: all;
+    position: relative;
+    max-height: 100%;
+}
+
+.defaultColor-HXu-5n {
+    color: #f0f0f0;
+}
+
+.footer-31IekZ {
+    border-radius: 0 0 5px 5px;
+    background-color: transparent;
+}
+
+.text-md-medium-2avxhQ, .text-md-normal-304U3g {
+    font-family: 'Whitney';
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.container-x8Y1ix {
+    border-radius: 8px;
+    border: 1px solid var(--background-modifier-accent);
+    background-color: var(--search-popout-option-non-text-color);
+    margin-bottom: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    padding: 0;
+}
+
+.defaultColor-24IHKz.text-md-normal-304U3g.text-PdAsFQ {
+    color: aliceblue;
+    font-weight: 500;
+}
+
+button.backButton-2Ps-B8.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_-F {
+    color: #f0f0f0;
+}
+
+button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_-F {
+    color: #f0f0f0;
+}
+
+.input-2g-os5 {
+    font-size: 16px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 3px;
+    color: #f0f0f0;
+    background-color: var(--search-popout-option-non-text-color);
+    border: none;
+    -webkit-transition: border-color .2s ease-in-out;
+    transition: border-color .2s ease-in-out;
+}
+
+.h5-2RwDNl {
+    color: #f0f0f0;
 }
